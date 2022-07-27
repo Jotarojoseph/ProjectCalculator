@@ -1,0 +1,110 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan';
+    font-size: 18pt;
+    text-transform: uppercase;
+    border: none;
+
+}
+.container-master{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(222, 26%, 31%);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.display{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    input{
+        width: 100%;
+        border-radius: 10px;
+        padding: 5%;
+        border: none;
+        background-color: hsl(224, 36%, 15%);
+        color:white;
+    }
+
+}
+
+.container-box{
+    width: 30%;
+    height: 50vh;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+    padding: 10px;
+    
+    button{
+        margin: 6px;        
+        width: 25%;
+    }
+
+    .box{
+        padding: 5%;
+    }
+}
+
+
+
+.botoesCalc{
+    display: flex;
+    justify-content: center;
+
+    button{
+        text-transform: uppercase;
+        font-size: 18pt;
+        color: hsl(221, 14%, 31%);
+        background-color:  hsl(30, 25%, 89%);
+        box-shadow: 0px 3px hsl(28, 16%, 65%);
+    }
+
+        button:hover{        
+            background-color:  white;
+        }
+}
+
+.botoesCalcRi{
+    display: flex;
+    justify-content: center;
+    
+
+    .reset{
+        background-color: hsl(225, 21%, 49%);
+        box-shadow: 0px 3px hsl(224, 28%, 35%);
+       
+    }
+    button{
+        width: 50%;
+        height: 45px;
+        background-color:  hsl(6, 63%, 50%);
+        box-shadow: 0px 3px hsl(6, 70%, 34%);
+
+    }
+    button:hover{
+        
+        color: white;
+        background-color:  hsl(6, 64%, 53%);
+        box-shadow: 0px 3px hsl(6, 67%, 36%);
+    }
+
+    .reset:hover{
+
+            color: white;
+            background-color: hsl(225, 19%, 54%);
+            box-shadow: 0px 3px hsl(223, 25%, 40%);    
+    }
+
+
+}
+
+
