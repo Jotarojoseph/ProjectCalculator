@@ -1,48 +1,42 @@
 <div class="container-master">
-   
+  <div class="display">
+    <input type="text" class="text-end" />
+  </div>
 
-   <div class="display">
-    <input type="text" class="text-end " >
-   </div>
-   
-    <div class="container-box">
-
+  <div class="container-box">
     <div class="box">
-        <div class="botoesCalc">
-            
-            <button type="button" class="btn btn-sm" (click)="b9()"> 9 </button>
-            <button type="button" class="btn btn-sm" (click)="b8()"> 8 </button>
-            <button type="button" class="btn btn-sm" (click)="b7()"> 7 </button>
-            <button type="button" class="btn btn-sm">del</button>
-        </div>
-            
-        <div class="botoesCalc">
-            <button type="button" class="btn btn-sm" (click)="b6()"> 6 </button>
-            <button type="button" class="btn btn-sm" (click)="b5()"> 5 </button>
-            <button type="button" class="btn btn-sm" (click)="b4()"> 4 </button>
-            <button type="button" class="btn btn-sm" > + </button>
+      <div class="botoesCalc">
+        <button type="button" class="btn btn-sm" (click)="botao(9)">9</button>
+        <button type="button" class="btn btn-sm" (click)="botao(8)">8</button>
+        <button type="button" class="btn btn-sm" (click)="botao(7)">7</button>
+        <button type="button" class="btn btn-sm">del</button>
+      </div>
 
-        </div>
+      <div class="botoesCalc">
+        <button type="button" class="btn btn-sm" (click)="botao(6)">6</button>
+        <button type="button" class="btn btn-sm" (click)="botao(5)">5</button>
+        <button type="button" class="btn btn-sm" (click)="botao(4)">4</button>
+        <button type="button" class="btn btn-sm">+</button>
+      </div>
 
-        <div class="botoesCalc">
-            <button type="button" class="btn btn-sm" (click)="b3()"> 3 </button>
-            <button type="button" class="btn btn-sm" (click)="b2()"> 2 </button>
-            <button type="button" class="btn btn-sm" (click)="b1()"> 1 </button>
-            <button type="button" class="btn btn-sm"> - </button>
+      <div class="botoesCalc">
+        <button type="button" class="btn btn-sm" (click)="botao(3)">3</button>
+        <button type="button" class="btn btn-sm" (click)="botao(2)">2</button>
+        <button type="button" class="btn btn-sm" (click)="botao(1)">1</button>
+        <button type="button" class="btn btn-sm">-</button>
+      </div>
 
-        </div>
+      <div class="botoesCalc">
+        <button type="button" class="btn btn-sm">.</button>
+        <button type="button" class="btn btn-sm" (click)="botao(0)">0</button>
+        <button type="button" class="btn btn-sm">/</button>
+        <button type="button" class="btn btn-sm">x</button>
+      </div>
 
-        <div class="botoesCalc">
-            <button type="button" class="btn btn-sm"> . </button>
-            <button type="button" class="btn btn-sm" (click)="b0()"> 0 </button>
-            <button type="button" class="btn btn-sm"> / </button>
-            <button type="button" class="btn btn-sm"> x </button>
-        </div>
-            
-        <div class="botoesCalcRi">
-            <button type="button" class=" reset btn btn-sm"> reset </button>
-            <button type="button" class="btn btn-sm"> = </button>
-        </div>
+      <div class="botoesCalcRi">
+        <button type="button" class="reset btn btn-sm">reset</button>
+        <button type="button" class="btn btn-sm">=</button>
+      </div>
     </div>
-
-    </div>
+  </div>
+</div>
